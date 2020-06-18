@@ -1,0 +1,13 @@
+1- create component manualy and click
+2- selector in component [ string - class - array ]
+3- Property Binding => [property] = "value | Exprition"
+4- String Interpolation => {{ var - string - function }}
+6- [(ngModel)]="data" => Tow Way Data Binding
+7- Events (Event) => (click)=Function
+8- how to run event object => function($event)
+9- tow Way Data binding [(ngModel)] => import FormsModule EX import { FormsModule } from '@angular/forms'; and put in imports[]
+10- property binding ==== [property]="exprition"
+11- Directives => An Attribute directive changes the appearance or behavior of a DOM element.
+12- *ngIf Directive - else <ng-template #name> Message </ng-template>
+
+ 

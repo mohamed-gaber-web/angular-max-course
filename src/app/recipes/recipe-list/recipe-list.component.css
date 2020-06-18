@@ -1,0 +1,10 @@
+.media {
+  margin-bottom: 20px;
+}
+
+.media h5 a {
+  color: black;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+}
