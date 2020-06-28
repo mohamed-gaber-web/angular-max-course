@@ -18,4 +18,8 @@ constructor() { }
   ngOnInit(): void {
   }
 
+  onAddIngredient(ingredient: Ingredients) {
+    this.ingredients.push(ingredient);
+  }
+
 }

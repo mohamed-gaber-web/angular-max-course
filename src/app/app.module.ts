@@ -11,6 +11,7 @@ import { RecipeItemComponent } from './recipes/recipe-list/recipe-item/recipe-it
 import { RecipeDetailsComponent } from './recipes/recipe-details/recipe-details.component';
 import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-edit.component';
+import {FormsModule} from '@angular/forms';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-ed
     ShoppingEditComponent
   ],
   imports: [ // any output library
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,1 +1,9 @@
-<p>recipe-item works!</p>
+<div class="col-xs-12 ">
+  <div class="media">
+    <img [src]="recipe.imagePath" class="mr-3" alt="..." style="max-height: 50px">
+    <div class="media-body">
+      <h5> <a href="#"> {{ recipe.name }}</a> </h5>
+      {{ recipe.description }}
+    </div>
+  </div>
+</div>
