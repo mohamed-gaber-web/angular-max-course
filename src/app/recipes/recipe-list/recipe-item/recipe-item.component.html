@@ -1,4 +1,5 @@
-<div class="col-xs-12 ">
+<div class="col-xs-12">
+<a [routerLink]="[index]" style="cursor: pointer;" routerLinkActive='activeItem'>
   <div class="media">
     <img [src]="recipe.imagePath" class="mr-3" alt="..." style="max-height: 50px">
     <div class="media-body">
@@ -6,4 +7,5 @@
       {{ recipe.description }}
     </div>
   </div>
+</a>
 </div>
